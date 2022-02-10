@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.logo {
+  font-size: 30px;
+  background-color: chocolate;
+}
+.unl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.dayMode {
+  background-color: red;
+}
+.nightMode {
+  background-color: darkmagenta;
+}
+.unl > li {
+  float: left;
+}
+.unl li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.hero {
+  padding: 10rem;
+  text-align: center;
+  margin: 0;
+  background-color: aqua;
+}
+.footer {
+  margin: 0;
+  padding: 3rem;
+  text-align: center;
+  background-color: burlywood;
+}
