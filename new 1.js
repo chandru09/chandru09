@@ -44,7 +44,16 @@ for (var i = 0; i < links.length; i++) {
 
 
 
+-------------------------------------------------------------
+	
+	 var tagName = document.querySelectorAll("a[href^='https://www.w3schools.com/js/']");
+    for (var values of tagName.values()) {
+        values.style.display = 'none'
 
+    }
+
+	
+	--------------------------------------------------
 
 
 
